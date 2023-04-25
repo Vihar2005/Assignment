@@ -1,0 +1,71 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.22621}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\b\f0\fs36\lang9 [B1] What Is class in Object Oriented Programming Language?\par
+\b0\fs32 ->   In Object Oriented Programming (OOP), a class is a blueprint or a template that defines the characteristics and behaviors of a particular type of object. It encapsulates the data (attributes) and the functionality (methods) that the objects of the class will have.\par
+A class can be seen as a user-defined data type that allows you to create objects of that type. Objects are instances of a class and each object has its own set of data and methods.\par
+\par
+\b\fs36 [B2]  What is an Object in Object Oriented Programming Language?\par
+\b0\fs32 -> In Object Oriented Programming (OOP), an object is an instance of a class. It is a runtime entity that has state (attributes) and behavior (methods). Objects are created based on the blueprint or template defined by the class.\par
+To put it simply, a class is like a blueprint for a house, while an object is an actual house built from that blueprint. The class defines the attributes and methods that the objects will have, while the objects themselves have specific values for those attributes and can perform the methods.\par
+\par
+\b [B3] What Is Difference Between Class And Interface?\par
+-> Class\b0\par
+-> Purpose:- A class is used to define an object's attributes and behavior. It is a blueprint for creating objects. \par
+-> Implementation:- A class can have both attributes (data) and methods (behavior), while an interface only defines method signatures  without any implementation.\b\par
+\b0 ->Inheritance:- A class can inherit from another class, but it cannot inherit from an interface.\par
+-> Instantiation:- A class can be instantiated, which means an object can be created from it. An interface cannot be instantiated because it has no implementation. \par
+\b -> Interface\par
+\b0 -> Purpose:- An interface is used to define a set of methods that a class should implement. It is a contract that a class must fulfill.\par
+-> Implementation:- It is up to the class that implements the interface to provide the actual implementation of the methods.\par
+-> Inheritance:- However, a class can implement one or more interfaces, which means it must provide an implementation for all the methods defined in those interfaces.\par
+-> Instantiation:- However, a class that implements an interface can be instantiated, and the resulting object will have the behavior defined by the interface.\par
+\b [B4] What Is Method Overloadingin Object Oriented Programming Language?\par
+\b0 ->  Method overloading is a feature in object-oriented programming that allows a class to have multiple methods with the same name but different parameter lists. In C++, method overloading is achieved by defining multiple member functions with the same name but different parameters within a class.\par
+->  When a method is called, the compiler determines which version of the method to invoke based on the number, type, and order of arguments passed to it. This allows programmers to use the same method name for related operations, improving the readability and maintainability of the code. \par
+\b [B5]  What Is Data hiding in Object Oriented Programming Language?\par
+\b0 ->  Data hiding, also known as encapsulation, is a fundamental concept in object-oriented programming that refers to the practice of hiding the implementation details of a class from its users. In other words, data hiding is a way to restrict access to the internal data and methods of a class, preventing them from being modified or viewed by external code.\par
+\b [B6]  What are the differences between abstract classes and interfaces?\par
+-> classes\par
+\b0 ->Implementation:- An abstract class can have method implementations (code), while an interface cannot have any method implementation.\par
+->Instantiability:- An abstract class cannot be instantiated, while an interface cannot be instantiated or have any fields.\par
+->Inheritance:- A class can inherit from only one abstract class, but it can implement multiple interfaces.\par
+->Access modifiers:- An abstract class can have public, protected, and private members.\par
+-> Purpose:- An abstract class is used when you want to provide a base implementation for derived classes.\par
+\b -> interfaces\par
+\b0 -> Implementation:- All methods in an interface are by default abstract and do not have any implementation.\par
+-> Instantiability:-  However, an abstract class can have constructors, while an interface cannot.\par
+-> Inheritance:- an interface allows for multiple inheritance, while an abstract class does not.\par
+->  Access modifiers:- while an interface can only have public members.\par
+-> Purpose:- whereas an interface is used when you want to specify a set of methods that a class must implement, regardless of its implementation details.\par
+\b [B7]  What are the Virtual Func on in Object Oriented Programming?\par
+\b0 ->  In Object-Oriented Programming (OOP), a virtual function is a function declared in a base class that can be overridden in a derived class. It allows a function in the base class to be redefined in a subclass, providing a way to implement polymorphism, which is one of the fundamental principles of OOP.\par
+\par
+\b [B8]  What is Constructor in Object Oriented Programming? \par
+\b0 ->In object-oriented programming (OOP), a constructor is a special method or function that is automatically called when an object of a class is created. Its primary purpose is to initialize the object's data members or attributes to some initial values.\par
+\par
+\b [B9] What is Abstract class in Object Oriented Programming?\par
+\b0 ->  In object-oriented programming, an abstract class is a class that cannot be instantiated on its own but instead serves as a template or blueprint for other classes to inherit from.\par
+\line ->  An abstract class contains one or more abstract methods, which are methods without an implementation, and may also contain regular methods with an implementation. These abstract methods provide a contract or an interface that any subclass must implement, thereby enforcing a particular behavior or functionality across all subclasses.\par
+\b [B10] What is Final Keyword in Object Oriented Programming?\par
+\b0 ->   In object-oriented programming, the "final" keyword is used to restrict the behavior of classes, methods, and variables in various ways.\par
+->  When applied to a class, the "final" keyword means that the class cannot be subclassed or extended. This is useful when you want to ensure that a class cannot be modified or overridden by other developers.\par
+\b [B11]  What is Pure Virtual funtion in Object Oriented Programming?\par
+\b0 -> In object-oriented programming, a pure virtual function is a virtual function that has no implementation in the base class and is intended to be overridden by derived classes.\par
+A pure virtual function is declared using the "virtual" keyword followed by the "= 0" syntax, indicating that it has no implementation in the base class. Any class containing at least one pure virtual function is considered to be an abstract class and cannot be instantiated directly. Instead, it must be inherited by a derived class that provides an implementation for the pure virtual function.\par
+\b [B12]  What are Sealed Modifier in Object Oriented Programming?\par
+\b0 ->  In object-oriented programming, the "sealed" modifier is used to restrict inheritance in C# and prevent further derivation of a class. When a class is marked as sealed, it cannot be inherited or subclassed by other classes.\par
+->  When a class is marked as sealed, it is typically used to indicate that the class is complete and cannot be extended any further. This is useful when you want to prevent further modification of a class that has been thoroughly tested and validated.\par
+\b [B13]  What is Dynamic or run time Polymorphism in oops ?\par
+\b0 ->   Dynamic or runtime polymorphism is a feature in object-oriented programming that allows different classes to implement the same method or function in different ways. This allows for flexibility in coding, as the behavior of a method can be determined at runtime based on the type of object that is calling it.\par
+\b [B14]   What is Access Modifierin Object Oriented Programming?\par
+\b0 ->   In object-oriented programming, an access modifier is a keyword that determines the level of access that a class member (i.e. field, property, method, etc.) has to other classes or objects.\par
+\b [B15]   What is Friend Function in Object Oriented Programming?\par
+\b0 ->   In object-oriented programming, a friend function is a function that is not a member of a class, but has access to the private and protected members of that class.\par
+->  Friend functions are typically used to allow non-member functions to access private or protected data within a class. They can be declared within the class definition using the "friend" keyword, or they can be declared outside of the class definition and then declared as a friend of the class.\par
+\b [B16]  What is Overriding in Object Oriented Programming?\par
+\b0 ->  In object-oriented programming, method overriding is the process of creating a new implementation for a method that is already defined in a parent or base class. The new implementation replaces the original implementation in the derived class.\par
+\b [B17]   What is the role of mutable storage classs pecifier? \par
+\b0 ->   In object-oriented programming, the "mutable" storage class specifier is used to modify the behavior of a class data member. By default, class data members are considered "const" and cannot be modified after they are initialized. However, when a data member is declared with the "mutable" specifier, it can be modified even if the object is const.\par
+\b\fs18\par
+}
+ 
